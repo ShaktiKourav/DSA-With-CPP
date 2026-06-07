@@ -6,11 +6,11 @@ void print1toN(int n) {
     if(n==1) {
         cout << 1 << " "; // base case
         return ; 
-    } else {
+    } 
          
          print1toN(n-1); // recursive call
          cout << n << " ";
-    }
+    
 }
 
 int main(){
